@@ -1,2 +1,2 @@
-# c_programms
-c_programms 
+# c_program
+c_program 
