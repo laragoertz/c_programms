@@ -3,15 +3,13 @@
 void rechnen(double Zins, double AB, double AD)
 {
     printf("das ist das unterprogramm");
-    double c=0.0;
-do
-{
-    AB=AB*(1+Zins);
+    double c = 0.0;
+    do
+    {
+        AB = AB * (1 + Zins);
+    } while (c < AD, c++);
+    printf("\nDer Anlagebetrag ist %lf\n", AB);
 }
-while (c<AD,c++);
-    printf("\nDer Anlagebetrag ist %lf\n",AB);
-}
-
 
 int main()
 {
@@ -24,8 +22,7 @@ int main()
     scanf("%lf", &AB);
     printf("\nGeben Sie die Anlagedauer ein\n");
     scanf("%lf", &AD);
-    rechnen(Zins,AB,AD);
-    
+    rechnen(Zins, AB, AD);
 }
   
   
